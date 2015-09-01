@@ -1,0 +1,47 @@
+<head>
+  <title>pricelist</title>
+</head>
+
+<body>
+	<div id='form-area'>
+	  <h1>Hola !</h1>
+	  <div>
+		<ul>
+		{{#each distribuidores}}
+			{{> distribuidor}}
+		{{/each}}
+		</ul>
+		</div>
+	 	<p> Nos encanta que quieras ser parte de nuestra red de comercios.</p>
+
+		<p>Por favor dejanos tus datos y te va a llegar la lista de precios mayorista a la brevedad.</p>
+
+	  <form class='send-list'>
+	  		<label for='nombre'> Tu nombre : </label>
+			<input type='text' class='input-send-list' name='nombre' placeholder='Nombre de la persona de contacto' />
+			<label for='sitio'> Web : </label>
+			
+			<input type='text' class='input-send-list' name='sitio' placeholder='Website de la tienda' />
+			<label for='correo'> Tu Mail : </label>
+			<input type='text' class='input-send-list' name='correo' placeholder='Email de contacto' />
+			<label for='telefono'> Telefono : </label>
+			<input type='text' class='input-send-list' name='telefono' placeholder='Telefono de contacto' />
+			
+			<input type='checkbox' class='input-send-list' name='estaAbierta' placeholder='Mi tienda ya esta abierta' />
+			<label for='estaAbierta'> Estas por abrir? </label>
+			<input type='submit' class='input-send-list' value='Quiero recibir la lista de precios mayorista!' />
+			
+
+		</form>
+	</div>	
+
+	
+
+	
+		
+	
+</body>
+
+
+
+

@@ -1,0 +1,96 @@
+$font-stack:    "Courier New", Courier, monospace;
+$primary-color: #333;
+$header-color: #099;
+$amazonica-dark-color: #464645;
+$amazonica-light-color: #EDEDEC;
+$amazonica-contrast-color: #C9DCC9;
+$amazonica-medium-dark-color: #726058;
+$amazonica-medium-light-color: #DCBFA3;
+$title-font-size: 33px;
+$dash-green: #ACEC00;
+$dash-red: #EF3C79;
+$dash-blue: #00BBD6;
+$dash-purple: #BA65C9;
+$dash-grey: #757577;
+$dash-bgnd: #333333;
+
+body {
+  font: 100% $font-stack;
+  color: $amazonica-dark-color;
+  background-color: $amazonica-medium-dark-color;
+}
+
+.mdl-layout__header {
+	background-color:$amazonica-medium-dark-color;
+	color: $amazonica-contrast-color;
+	font-size: $title-font-size;
+}
+
+
+h1 {
+	font-size: 48px;
+	color : $amazonica-contrast-color;
+}
+
+
+p {
+	font-size: 18px;
+}
+
+.material-icons {
+	color: $amazonica-contrast-color;
+}
+
+.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect.green {
+	background-color: $dash-green;
+	color: $amazonica-dark-color;
+}
+
+.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect.red {
+	background-color: $dash-red;
+	color: $amazonica-light-color;
+	float: right;
+}
+
+
+//---------------------------------------------------- >cards
+.demo-card-wide.mdl-card {
+  width: 150px;
+  }
+.demo-card-wide > .mdl-card__title {
+  background-color: $amazonica-medium-light-color;
+  height: 150px;
+  }
+.demo-card-wide > .mdl-card__menu {
+  color: $amazonica-contrast-color;
+  background-color: $amazonica-medium-light-color;
+  }
+//---------------------------------------------------- cards<
+
+#form-area{
+	position: absolute;
+	padding: 50px;
+	background-color: white;
+}
+
+
+.input-send-list {
+
+	
+	
+	font-size: 18px;
+	color : purple;
+
+}
+
+.send-list {
+	
+	width: 150px;
+	
+	font-size: 18px;
+	color : purple;
+}
+
+.tester {
+	color: purple;
+}

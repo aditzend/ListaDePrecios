@@ -8,3 +8,14 @@ meteor-platform
 autopublish
 insecure
 mquandalle:jade
+zodiase:mdl
+fourseven:scss
+udondan:googlefonts
+iron:router
+email
+wylio:mandrill
+accounts-ui
+accounts-password
+accounts-facebook
+accounts-google
+lepozepo:publish-with-relations

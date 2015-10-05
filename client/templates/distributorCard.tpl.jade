@@ -2,16 +2,20 @@
 .card-wide.mdl-card.mdl-shadow--2dp
   .mdl-card__title
     h2.mdl-card__title-text {{nombre}}
+  p.mdl-card__supporting-text {{sitio}}
+  p.mdl-card__supporting-text {{correo}}
+  p.mdl-card__supporting-text {{telefono}}
+  p.mdl-card__supporting-text {{status}}
   .mdl-card__supporting-text
-    | {{status}}
     if estaAbierta
       | Aun no abrio 
     else
       | Tienda Abierta 
-    
   .mdl-card__actions.mdl-card--border
-    a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect
-      | Ver Perfil
+    a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect.green
+      | autorizar
+    a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect.red
+      | denegar  
   .mdl-card__menu
     button.mdl-button.mdl-button--icon.mdl-js-button.mdl-js-ripple-effect
       i.material-icons lock
